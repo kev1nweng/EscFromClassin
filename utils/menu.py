@@ -3,7 +3,7 @@ from utils.imports import *
 from utils.func import *
 
 stage = "Pre-Alpha"
-version = "0.1.0"
+version = "0.2.0"
 
 
 
@@ -31,14 +31,14 @@ def menu():
     time.sleep(0.1)
     print("\n+菜单\n")
     print("1. 立即结束 Classin 主进程")
-    print("2. 置顶操作 (可用于解除专注全屏)")
+    print("2. 置顶操作")
     print("+ 2.1 置顶窗口")
     print("+ 2.2 取消置顶")
     print("3. 对进程注入DLL文件")
-    print("4. 立即蓝屏")
+    print("4. 立即蓝屏(可能不成功)")
     print("0. 退出")
     print("\n114514. ?????")
-
+    print("\n按下 Alt+C 强制解除专注模式置顶。\n* 此软件仅供学习交流使用，作者不对该软件造成的任何事情负责。")
 
     while True:
         try:

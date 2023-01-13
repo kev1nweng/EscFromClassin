@@ -139,6 +139,10 @@ def func2_2():
     pinTarget = input("\n请输入你要取消置顶的窗口标题: \n>> ")
     windowOperation.unpin(pinTarget)
     
+def func2key():
+    pinTarget = 'Classin'
+    windowOperation.unpin(pinTarget)
+    
 def func3():
     injectTarget = ''
     injectTarget = input("\n请输入你要注入的程序PID: \n>> ")
