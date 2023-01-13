@@ -40,6 +40,7 @@ def signal_handler(signal,frame):
     print('\n\n[!] 你按下了Ctrl+C，正在退出程序...')
     time.sleep(1)
     cls()
+    print("\n系统仍在监听关闭置顶快捷键。\n如果要停止，请直接关闭此窗口。")
     sys.exit(0)
 
 signal.signal(signal.SIGINT,signal_handler)
