@@ -6,13 +6,12 @@ stage = "Pre-Alpha"
 version = "0.2.0"
 
 
-
 def waitAndMenu():
     wait(2)
     menu()
 
+
 def menu():
-    
     funcChoice = ""
     run("mode con cols=50 lines=30")
     run("title>nul EscFromClassin")
@@ -50,7 +49,7 @@ def menu():
             menu()
 
     if funcChoice == 0:
-        print('\n[!] 正在退出程序...')
+        print("\n[!] 正在退出程序...")
         time.sleep(1)
         cls()
         sys.exit(0)
@@ -78,5 +77,5 @@ def menu():
     if funcChoice == 114514:
         func114514()
         waitAndMenu()
-    
+
     menu()
